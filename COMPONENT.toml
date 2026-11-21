@@ -8,7 +8,7 @@ upstream = []
 
 [contract]
 provides = ["sigmafilemanager"]
-depends_on = ["SigmaOS-system"]
+depends_on = []
 
 [maturity]
 status = "Implemented"
