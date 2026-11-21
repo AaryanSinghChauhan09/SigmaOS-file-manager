@@ -8,6 +8,9 @@ use log::info;
 use serde::{Deserialize, Serialize};
 use std::path::Path;
 
+/// File management module.
+pub mod sigmafilemanager;
+
 /// Component configuration
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Config {

@@ -7,7 +7,7 @@ description = "File manager component for SigmaOS"
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["sigmafilemanager"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
